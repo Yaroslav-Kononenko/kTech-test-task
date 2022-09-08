@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("../static/ProximaNova-Semibold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.Forms {
+  width: 496px;
+  padding: 17px 105px 0;
+
+  &__title{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+    color: #393939;
+  }
+
+  &__nav {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+    color: #393939;
+  }
+
+  &__form {
+    width: 100%;
+  }
+
+  &__s-media-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.Form-description {
+  color: #393939;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  padding-bottom: 9px;
+}
+
+.Form-button {
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+.UsersRow {
+  display: block;
+}
+
+.S-media {
+  text-align: center;
+  
+  &__title {
+    position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    margin-bottom: 16px;
+    letter-spacing: 0.005em;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+    color: #393939;
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 73px;
+      left: 0;
+      top: 50%;
+      height: 1px;
+      background-color: #393939;
+    }
+  
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 73px;
+      right: 0;
+      top: 50%;
+      height: 1px;
+      background-color: #393939;
+    }
+  }
+
+  &__auth-methods {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 124px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+
+  &__agreements {
+    margin-bottom: 41px;
+  }
+}
+
+.S-media__auth-methods > a {
+  width: 40px;
+  height: 40px;
+}
+
+.ant-tabs-nav-wrap::before {
+  display: none;
+}
+
+.ant-tabs-nav-wrap::after {
+  display: none;
+}
+
+.focused {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.005em;
+  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+}
+
+.ant-form-item-label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on, 'liga' off;
+  color: #393939;
+}
